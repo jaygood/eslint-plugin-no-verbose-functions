@@ -1,9 +1,9 @@
 // Don't allow typeof comparisons with "undefined" or "number"
-const VALID_TYPES = ['symbol', 'object', 'boolean', 'string', 'function'];
+const VALID_TYPES = ['symbol', 'object', 'boolean', 'string', 'function', 'number'];
 const OPERATORS = ['==', '===', '!=', '!=='];
 
 module.exports.rules = {
-  'undefined-or-number': context => ({
+  undefined: context => ({
     UnaryExpression(node) {
       if (node.type === 'UnaryExpression' && node.operator === 'typeof') {
         const parent = context.getAncestors().pop();
