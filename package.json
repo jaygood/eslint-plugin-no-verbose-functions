@@ -1,0 +1,20 @@
+{
+  "name": "eslint-plugin-no-typeof-undefined",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaygood/eslint-plugin-no-typeof-undefined.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaygood/eslint-plugin-no-typeof-undefined/issues"
+  },
+  "homepage": "https://github.com/jaygood/eslint-plugin-no-typeof-undefined#readme"
+}
