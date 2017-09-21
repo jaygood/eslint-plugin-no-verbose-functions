@@ -2,8 +2,8 @@
 const VALID_TYPES = ['symbol', 'object', 'boolean', 'string', 'function'];
 const OPERATORS = ['==', '===', '!=', '!=='];
 
-module.exports = {
-  create: context => ({
+module.exports.rules = {
+  'undefined-or-number': context => ({
     UnaryExpression(node) {
       if (node.type === 'UnaryExpression' && node.operator === 'typeof') {
         const parent = context.getAncestors().pop();
