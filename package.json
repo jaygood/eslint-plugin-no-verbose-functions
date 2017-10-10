@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-no-typeof-undefined",
+  "name": "eslint-plugin-no-verbose-functions",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaygood/eslint-plugin-no-typeof-undefined.git"
+    "url": "git+https://github.com/jaygood/eslint-plugin-no-verbose-functions.git"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jaygood/eslint-plugin-no-typeof-undefined/issues"
   },
-  "homepage": "https://github.com/jaygood/eslint-plugin-no-typeof-undefined#readme"
+  "homepage": "https://github.com/jaygood/eslint-plugin-no-verbose-functions#readme",
+  "dependencies": {
+    "eslint-plugin-no-verbose-functions": "git+https://github.com/jaygood/eslint-plugin-no-verbose-functions.git"
+  }
 }

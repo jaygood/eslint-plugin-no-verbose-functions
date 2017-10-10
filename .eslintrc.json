@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    "no-verbose-functions"
+  ],
+  "rules": {
+    "no-verbose-functions/functions": 2
+  }
+}
